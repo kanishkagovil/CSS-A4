@@ -1,0 +1,178 @@
+h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    border: 2px solid black;
+    background-color: rgb(33, 206, 206);
+    font-size: 30px;
+}
+
+
+.heading2{
+
+     display: flex;
+     justify-content: center;
+     text-decoration: underline;
+     border: 2px double black;
+     background-color: rgb(13, 177, 40);
+     font-size: 23px;
+ }
+
+
+
+.first_box{
+    display:flex;
+    justify-content: center;
+    border:3px dotted rgb(0, 17, 255);
+    border-radius: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(161, 187, 209);
+}
+body {
+     margin: 0;
+     padding: 20px;
+     background-color: #f0f0f0;
+ }
+
+ .grid-container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: auto auto;
+     gap: 12px;
+     padding: 10px;
+     background-color: rgb(188, 220, 247);
+     border: 3px outset black;
+     border-radius: 17px;
+ }
+ .grid-item {
+     padding: 20px;
+     font-weight: bold;
+     text-align: center;
+     border: 2px solid black;
+     border-radius: 15px;
+ }
+
+ .small {
+     background-color: cyan;
+ }
+ 
+ .large {
+     display: flex;
+     margin-left: 250px;
+     background-color: rgb(89, 255, 255);
+     grid-column: span 2; /* This makes it take full width of three columns */
+ }
+
+
+
+
+ .grid-container2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-evenly;
+     gap: 20px;
+     padding: 30px;
+     background: radial-gradient(circle, rgb(161, 15, 100)), rgb(15, 136, 136), green);
+     border-radius : 10px;
+ }
+ 
+ .grid-item2 {
+     background-color: rgb(202, 174, 191);
+     padding: 10px;
+     border-radius: 17px;
+     border: 2px dotted red;
+     text-align: center;
+     font-weight: bold;
+     font-size: 1.1rem;
+ }
+ 
+ h3 {
+     text-decoration: underline;
+     color: rgb(10, 19, 5);
+ }
+
+
+
+ .container {
+     width: 100%;
+     border: 2px solid rgb(5, 5, 5);
+ }
+ 
+ .header {
+     background-color: rgb(255, 0, 119);
+     color: white;
+     font-weight: bolder;
+     text-align: center;
+     padding: 2px;
+     font-size: 1.5rem;
+ }
+ 
+ .grid {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr) 1fr;
+     gap: 9px;
+     padding: 12px;
+ }
+ 
+ .box {
+     padding: 50px;
+     font-weight: 900;
+     color: white;
+     text-align: center;
+ }
+ 
+ .green {
+     background-color: lightgreen;
+     color: rgb(1, 5, 1);
+ }
+ 
+ .lightblue {
+     background-color: rgb(182, 138, 159);
+     color: darkblue;
+ }
+ 
+ .blue {
+     background-color: rgb(39, 189, 34);
+ }
+ 
+ .black {
+     background-color: rgb(180, 33, 33);
+     text-align: left;
+ }
+ 
+ .black ul {
+     list-style: none;
+     padding: 0;
+ }
+ 
+ .black ul li {
+     margin: 5px 0;
+ }
+ 
+ .black ul li a {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .black ul li a:hover {
+     text-decoration: underline;
+ }
+ 
+ .description {
+     background-color: rgb(245, 233, 66);
+     color: blue;
+     font-size:  22px;
+     padding: 20px;
+     text-align: center;
+ }
+ 
+ .footer {
+     background-color: rgb(255, 72, 0);
+     color: black;
+     font-weight: bold;
+     text-align: center;
+     padding: 10px;
+     font-size: 1.5rem;
+ }
